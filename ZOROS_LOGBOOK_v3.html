@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ZORO'S LOGBOOK</title>
+<style>
+:root{
+--green:#1b5e20;--green2:#2e7d32;--light:#f8fff8;--gold:#c9a227;--dark:#102214;
+}
+*{box-sizing:border-box}body{margin:0;font-family:Segoe UI,Arial;background:linear-gradient(135deg,#eef8ee,#d9f0dc);color:#102214}
+aside{position:fixed;left:0;top:0;width:250px;height:100%;background:var(--green);color:white;padding:20px;overflow:auto}
+aside h1{font-size:24px;margin:0 0 20px}
+aside a{display:block;color:white;text-decoration:none;padding:10px;border-radius:8px;margin:4px 0}
+aside a:hover{background:rgba(255,255,255,.12)}
+main{margin-left:270px;padding:25px}
+.card{background:rgba(255,255,255,.82);backdrop-filter:blur(10px);border:2px solid #d5ead7;border-radius:18px;padding:18px;margin-bottom:20px;box-shadow:0 8px 20px rgba(0,0,0,.08)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.progress{height:12px;background:#d7e7d7;border-radius:20px;overflow:hidden}
+.fill{height:100%;background:linear-gradient(90deg,var(--green2),#67c36d)}
+details{margin-top:10px;border:1px solid #dcebdc;border-radius:12px;padding:10px;background:#fbfffb}
+summary{cursor:pointer;font-weight:bold;color:var(--green)}
+.badge{display:inline-block;background:#edf7ee;border:1px solid #bdddbf;padding:6px 10px;border-radius:999px;margin:4px}
+h2{border-left:6px solid var(--gold);padding-left:10px}
+table{width:100%;border-collapse:collapse}
+td,th{padding:8px;border-bottom:1px solid #dfe8df;text-align:left}
+th{color:var(--green)}
+.small{color:#4b5d4c}
+</style>
+</head>
+<body>
+<aside>
+<h1>⚔ ZORO'S LOGBOOK</h1>
+<p class="small" style="color:#d9f0dc">The Path to Becoming the World's Strongest Engineer</p>
+<a href="#overview">Overview</a>
+<a href="#languages">Languages</a>
+<a href="#cs">Core CS</a>
+<a href="#projects">Projects</a>
+<a href="#reality">Reality Check</a>
+<a href="#timeline">Journey</a>
+</aside>
+
+<main>
+<div class="card" id="overview">
+<h2>Overview</h2>
+<div class="grid">
+<div><h3>Overall Progress</h3><h1>42%</h1><div class="progress"><div class="fill" style="width:42%"></div></div></div>
+<div><h3>Developer Level</h3><h1>6.4 / 10</h1><p>Student with strong project experience, fundamentals still developing.</p></div>
+<div><h3>Current Mission</h3><h3>Java • DSA • AI Engineering</h3></div>
+</div>
+</div>
+
+<div class="card" id="languages">
+<h2>Languages & Skills (Evidence Based)</h2>
+
+<details>
+<summary>Python — 80%</summary>
+<p><b>Reality:</b> Strong</p>
+<div class="progress"><div class="fill" style="width:80%"></div></div>
+<p><b>Covered:</b> Basics,OOP,NumPy,Pandas,OpenCV,YOLO,InsightFace,File Handling</p>
+<p><b>Still Missing:</b> TensorFlow,PyTorch,Packaging,Testing,AsyncIO</p>
+<p><b>Evidence:</b> Attendance System,Targeting System,Movie Explorer</p>
+</details>
+
+<details>
+<summary>Java — 72%</summary>
+<p><b>Reality:</b> Intermediate</p>
+<div class="progress"><div class="fill" style="width:72%"></div></div>
+<p><b>Covered:</b> OOP,Classes,Objects,Inheritance,Polymorphism,Interfaces,Exceptions,Packages,Arrays,Strings</p>
+<p><b>Still Missing:</b> Generics,Streams,Multithreading,JDBC,Spring Boot,JVM</p>
+<p><b>Evidence:</b> Learning DSA</p>
+</details>
+
+<details>
+<summary>C — 70%</summary>
+<p><b>Reality:</b> Intermediate</p>
+<div class="progress"><div class="fill" style="width:70%"></div></div>
+<p><b>Covered:</b> Pointers,Memory,Structs,Dynamic Memory,Files,Recursion</p>
+<p><b>Still Missing:</b> Advanced Data Structures,Sockets,Threads</p>
+<p><b>Evidence:</b> Course Programs</p>
+</details>
+
+<details>
+<summary>C++ — 65%</summary>
+<p><b>Reality:</b> Intermediate</p>
+<div class="progress"><div class="fill" style="width:65%"></div></div>
+<p><b>Covered:</b> OOP Basics</p>
+<p><b>Still Missing:</b> Modern C++,STL Advanced,Templates</p>
+<p><b>Evidence:</b> School Background</p>
+</details>
+
+<details>
+<summary>HTML — 70%</summary>
+<p><b>Reality:</b> Intermediate</p>
+<div class="progress"><div class="fill" style="width:70%"></div></div>
+<p><b>Covered:</b> Semantic HTML,Forms,Tables,Layout</p>
+<p><b>Still Missing:</b> Accessibility,SEO Advanced</p>
+<p><b>Evidence:</b> Dashboard Pages</p>
+</details>
+
+<details>
+<summary>CSS — 55%</summary>
+<p><b>Reality:</b> Intermediate</p>
+<div class="progress"><div class="fill" style="width:55%"></div></div>
+<p><b>Covered:</b> Flexbox,Grid,Basic Responsive</p>
+<p><b>Still Missing:</b> Animations,Advanced UI Systems</p>
+<p><b>Evidence:</b> UI Practice</p>
+</details>
+
+<details>
+<summary>JavaScript — 30%</summary>
+<p><b>Reality:</b> Beginner</p>
+<div class="progress"><div class="fill" style="width:30%"></div></div>
+<p><b>Covered:</b> Syntax,DOM Basics</p>
+<p><b>Still Missing:</b> Async,ES6+,Projects</p>
+<p><b>Evidence:</b> Early Stage</p>
+</details>
+
+<details>
+<summary>SQL — 65%</summary>
+<p><b>Reality:</b> Intermediate</p>
+<div class="progress"><div class="fill" style="width:65%"></div></div>
+<p><b>Covered:</b> CRUD,Schema Design,Basic Queries</p>
+<p><b>Still Missing:</b> Optimization,Indexes,Advanced Joins</p>
+<p><b>Evidence:</b> Attendance DB</p>
+</details>
+
+</div>
+
+<div class="card" id="cs">
+<h2>Core Computer Science</h2>
+<table>
+<tr><th>Subject</th><th>Rating</th><th>Reason</th></tr>
+<tr><td>OOP</td><td>82%</td><td>Consistently applied in Java, Python and C++.</td></tr>
+<tr><td>DSA</td><td>35%</td><td>Learning phase. Arrays and strings started, advanced topics not yet covered.</td></tr>
+<tr><td>DBMS</td><td>60%</td><td>Schema design and MySQL usage in projects.</td></tr>
+<tr><td>Operating Systems</td><td>25%</td><td>Limited practical exposure.</td></tr>
+<tr><td>Computer Networks</td><td>30%</td><td>Basic understanding.</td></tr>
+<tr><td>Software Engineering</td><td>45%</td><td>Good documentation and architecture thinking, limited production experience.</td></tr>
+</table>
+</div>
+
+<div class="card" id="projects">
+<h2>Projects (Brutally Honest)</h2>
+
+<details open><summary>Face Recognition Attendance System — 82%</summary>
+<b>Completed:</b>
+<ul>
+<li>Architecture</li><li>InsightFace integration</li><li>Database schema</li><li>Recognition pipeline</li><li>Dashboard planning</li><li>Documentation</li>
+</ul>
+<b>Missing:</b>
+<ul>
+<li>Production deployment</li><li>Docker</li><li>Authentication</li><li>CI/CD</li><li>Monitoring</li><li>Load testing</li>
+</ul>
+</details>
+
+<details><summary>Smart Targeting System — 88%</summary>
+<b>Completed:</b>
+<ul>
+<li>YOLO</li><li>Servo control</li><li>Arduino integration</li><li>Tracking</li><li>Laser aiming</li>
+</ul>
+<b>Missing:</b>
+<ul>
+<li>PID control</li><li>Kalman filter</li><li>Prediction</li><li>Multi-object tracking</li>
+</ul>
+</details>
+
+<details><summary>Movie Explorer — 90%</summary>
+Completed data visualization and analysis. Remaining work is polish and deployment.</details>
+
+<details><summary>RingBack AI — 40%</summary>
+Idea validation and planning completed. MVP and backend not yet built.</details>
+
+<details><summary>Portfolio — 15%</summary>
+Planning only.</details>
+</div>
+
+<div class="card" id="reality">
+<h2>Reality Check</h2>
+<table>
+<tr><th>Area</th><th>Status</th></tr>
+<tr><td>College Projects</td><td>★★★★★</td></tr>
+<tr><td>Computer Vision</td><td>★★★★☆</td></tr>
+<tr><td>Python</td><td>★★★★☆</td></tr>
+<tr><td>Java</td><td>★★★☆☆</td></tr>
+<tr><td>Backend</td><td>★★★☆☆</td></tr>
+<tr><td>Frontend</td><td>★★☆☆☆</td></tr>
+<tr><td>DSA</td><td>★★☆☆☆</td></tr>
+<tr><td>Cloud / DevOps</td><td>★☆☆☆☆</td></tr>
+<tr><td>Industry Readiness</td><td>5.8 / 10</td></tr>
+</table>
+
+<h3>Immediate XP Unlocks</h3>
+<span class="badge">Complete DSA Basics (+250 XP)</span>
+<span class="badge">Build Spring Boot API (+300 XP)</span>
+<span class="badge">Deploy Attendance System (+400 XP)</span>
+<span class="badge">100 LeetCode Problems (+500 XP)</span>
+</div>
+
+<div class="card" id="timeline">
+<h2>Journey</h2>
+<ul>
+<li>Started C & C++</li>
+<li>Moved into Python</li>
+<li>Built IoT projects</li>
+<li>Started Computer Vision (YOLO/OpenCV)</li>
+<li>Built Face Recognition Attendance System</li>
+<li>Built Smart Targeting System</li>
+<li>Shifted to Java for DSA</li>
+<li>Learning React & Full Stack</li>
+</ul>
+</div>
+
+</main>
+</body>
+</html>
